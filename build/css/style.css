@@ -56,6 +56,10 @@ b {
     text-transform: lowercase;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .m-b-n {
     margin-bottom: 0;
 }
@@ -95,6 +99,15 @@ html, body, .black-text {
     color: #333 !important;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #eaeaea;
+    margin: 1em 0;
+    padding: 0;
+}
+
 a {
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
@@ -109,11 +122,20 @@ nav {
     box-shadow: 0px 5px 10px 0 rgba(72, 76, 88, 0.08);
 }
 
+#sidenav-overlay {
+    left: 300px;
+}
+
 @media only screen and (max-width: 601px) {
     nav {
         padding: 0 !important;
     }
+
+    .p40s{
+        padding: 0 50px;
+    }
 }
+
 
 /*@media only screen and (min-width: 601px) {
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
@@ -123,6 +145,11 @@ nav {
 
 nav .brand-logo, nav a, nav ul a {
     color: #333;
+}
+
+nav .brand-logo>div>span{
+    position: relative;
+    display: block;
 }
 
 footer.page-footer.small {
@@ -215,4 +242,58 @@ nav.pinned+#content {
 
 .margin-left-18 {
     margin-left: 18px;
+}
+
+
+/* For the animated blinking cursor. */
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+span.badge.blue {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #228ee4;
+    border-radius: 2px;
 }
