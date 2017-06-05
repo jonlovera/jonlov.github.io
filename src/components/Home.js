@@ -94,7 +94,7 @@ export default function Home() {
                     </Row>
                 </div>
                 <div id="contact">
-                    <Row id="contact" className="p100">
+                    <Row id="contact" className="p100 p40s">
                         <Col s={12} className="center-align">
                             <h4>
                                 <b>Contact me</b>
