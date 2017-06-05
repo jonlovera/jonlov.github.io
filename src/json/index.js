@@ -2,7 +2,7 @@ export default {
     about : {
         avatar: "/build/img/profile.png",
         name: "Jonathan Lovera",
-        title: "Full-stack developer",
+        title: "Full-stack Developer",
         description: "Skilled dedicated worker with that focus on quality and agile development. Highly motivated to engage in dynamic learning and to adapt to changes and challenges, providing clear communication throughout. <br /><br />Has experience with programming languages such as, Ruby on Rails, Node.JS, Java, PHP, CSS3, HTML5 and Javascript including frameworks as Jquery, AngularJS, ReactJS, VueJS and others. Has worked with MySql and NoSql databases. Additionally, have done some experiments of Mobile Application with Ionic.",
         phone: "+61411063652",
         phoneBeautified: "+(61) 411 063 652",
@@ -23,7 +23,7 @@ export default {
                 "Mysql",
                 "ReactJS",
                 "JQuery",
-                "Html5",
+                "Html5"
             ]
         }, {
             title: "Rudimentary",

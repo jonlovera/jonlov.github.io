@@ -1,7 +1,7 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import {Link} from 'react-router-dom';
-import {Card, CardTitle, Row, Col, Badge} from 'react-materialize';
+import {Card, CardTitle, Row, Col, Badge, Button} from 'react-materialize';
 import jsonData from '../json';
 
 import {Track, TrackedDiv, TrackDocument} from 'react-track';
@@ -133,6 +133,12 @@ export default function Home() {
                                     fontSize: "26px"
                                 }}>
                                     <i className="fa fa-gitlab" aria-hidden="true"></i>
+                                </a>
+                                <br/>
+                                <br/>
+
+                                <a href={"/build/"+jsonData.about.name+" Resume.pdf"} className="black-text" target="_BLANK">
+                                    <Button className="blue" large>View resume</Button>
                                 </a>
                             </div>
                         </Col>

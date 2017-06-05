@@ -137,6 +137,11 @@ export default function App() {
                             <i className="fa fa-gitlab" aria-hidden="true"></i>
                         </a>
                     </li>
+                    <li>
+                        <a href={"/build/"+jsonData.about.name+" Resume.pdf"} className="black-text" target="_BLANK">
+                            <i className="fa fa-id-card" aria-hidden="true"></i>
+                        </a>
+                    </li>
                 </Navbar>
 
                 <div id="content">
@@ -146,9 +151,7 @@ export default function App() {
                     </Switch>
                 </div>
 
-                <Footer className="small center-align blue" copyrights={< div > Made with < i className = 'fa fa-heart' > </i>using ReactJS and compiled with Webpack by {
-                    jsonData.about.name
-                }. < a className = "white-text underline" href = "https://github.com/jonlov/jonlov.github.io" target = "_BLANK" > (View source code) < /a> < /div >}></Footer>
+                <Footer className="small center-align blue" copyrights={< div > Made with < i className = 'fa fa-heart' > </i> using ReactJS and compiled with Webpack. < a className = "white-text underline" href = "https://github.com/jonlov/jonlov.github.io" target = "_BLANK" > (View source code) < /a> < /div >}></Footer>
             </div>
         </div>
     );
