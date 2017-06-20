@@ -1,17 +1,18 @@
+@import "./materialIcons";
+@import "./animate.min";
+@import "./font-awesome.min";
 @font-face {
     font-family: 'Century Gothic';
     src: url('../fonts/CenturyGothic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Century Gothic Bold';
     src: url('../fonts/CenturyGothicBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Monaco';
     src: url('../fonts/monaco.ttf') format('truetype');
@@ -32,7 +33,7 @@ b {
 }
 
 .full-w {
-    width: 100%
+    width: 100%;
 }
 
 .no-margin {
@@ -75,12 +76,10 @@ b {
 .valign-middle {
     vertical-align: middle;
 }
-
-
 /*pass window height (w/o scroll bars) down to react app, note can't use vh becasue that
   includes scroll bars and mobile browser footer, etc so doesn't give viewable area*/
-
-html, body {
+body,
+html {
     font-family: "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     border: 0;
@@ -91,11 +90,15 @@ html, body {
     text-align: inherit;*/
 }
 
-html, body, .full-h {
-    height: 100%
+.full-h,
+body,
+html {
+    height: 100%;
 }
 
-html, body, .black-text {
+.black-text,
+body,
+html {
     color: #333 !important;
 }
 
@@ -109,8 +112,8 @@ hr {
 }
 
 a {
-    -webkit-transition: all .2s linear;
-    transition: all .2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
 }
 
 a.black-text:hover {
@@ -119,35 +122,40 @@ a.black-text:hover {
 
 nav {
     z-index: 99999;
-    box-shadow: 0px 5px 10px 0 rgba(72, 76, 88, 0.08);
+    box-shadow: 0 5px 10px 0 rgba(72, 76, 88, 0.08);
 }
 
 #sidenav-overlay {
     left: 300px;
 }
-
 @media only screen and (max-width: 601px) {
     nav {
         padding: 0 !important;
     }
 
-    .p40s{
+    .p40s {
         padding: 0 50px;
     }
 }
-
-
 /*@media only screen and (min-width: 601px) {
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
         line-height: 63px;
     }
 }*/
+@media only screen and (min-width: 601px) {
+    .valign-wrapper-m {
+        display: flex;
+        align-items: center;
+    }
+}
 
-nav .brand-logo, nav a, nav ul a {
+nav .brand-logo,
+nav a,
+nav ul a {
     color: #333;
 }
 
-nav .brand-logo>div>span{
+nav .brand-logo > div > span {
     position: relative;
     display: block;
 }
@@ -156,7 +164,7 @@ footer.page-footer.small {
     padding: 0;
 }
 
-footer.page-footer.small>.container {
+footer.page-footer.small > .container {
     display: none;
 }
 
@@ -168,7 +176,7 @@ section {
     top: 0;
 }
 
-section>div {
+section > div {
     margin-bottom: 127px;
 }
 
@@ -188,7 +196,7 @@ section>div {
     padding: 40px 0;
 }
 
-#content>div>div {
+#content > div > div {
     padding-top: 40px;
     padding-bottom: 60px;
 }
@@ -235,7 +243,8 @@ nav.pinned+#content {
     opacity: 0;
 }
 
-#root, #root>div {
+#root,
+#root > div {
     /*background-color: #F0F0F0;*/
     height: 100%;
 }
@@ -243,48 +252,48 @@ nav.pinned+#content {
 .margin-left-18 {
     margin-left: 18px;
 }
-
-
 /* For the animated blinking cursor. */
-
 .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
-
 @keyframes blink {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
-
 @-webkit-keyframes blink {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
-
 @-moz-keyframes blink {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }

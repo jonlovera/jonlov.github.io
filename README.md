@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="/build/img/profile_120x66.png" alt="Jonathan Lovera"/>
+    <img src="/assets/img/profile-b&w-120x66.png" alt="Jonathan Lovera"/>
     <br>
     <h1>Jonathan Lovera's Portfolio</h1>
 </p>
