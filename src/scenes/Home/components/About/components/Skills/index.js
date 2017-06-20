@@ -6,7 +6,7 @@ export default class Skills extends Component {
     render() {
         let skills = Object.entries(this.props.skills).map(([name, skills]) => {
             return (
-                <div key={name} s={12}>
+                <div key={name}>
                     <b>{name+":"}</b>{" "}
                     <SkillList skills={skills}/>
                 </div>

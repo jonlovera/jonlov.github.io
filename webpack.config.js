@@ -1,5 +1,7 @@
 const webpack = require('webpack'),
     path = require('path'),
+    FaviconsWebpackPlugin = require('favicons-webpack-plugin'),
+
     HtmlWebpackPlugin = require('html-webpack-plugin'),
     ExtractTextPlugin = require("extract-text-webpack-plugin"),
     extractSass = new ExtractTextPlugin({
@@ -10,9 +12,10 @@ const webpack = require('webpack'),
     HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin'),
     CopyWebpackPlugin = require('copy-webpack-plugin'),
     plugins = [
-        new webpack.ProvidePlugin({$: "jquery", jQuery: "jquery"}),
+        new webpack.ProvidePlugin({$: 'jquery', jQuery: 'jquery', 'window.$': 'jquery', 'window.jQuery': 'jquery'}),
         new HtmlWebpackPlugin({filename: '../index.html', template: 'assets/index.ejs', alwaysWriteToDisk: true}),
         new HtmlWebpackPlugin({filename: '../404.html', template: 'assets/404.ejs', alwaysWriteToDisk: true}),
+        new FaviconsWebpackPlugin('./assets/img/logo.png'),
         new HtmlWebpackHarddiskPlugin(),
         new WebpackCleanupPlugin(),
         new CopyWebpackPlugin([
@@ -70,7 +73,7 @@ module.exports = {
                     // use style-loader in development
                     fallback: "style-loader"
                 })
-            },{
+            }, {
                 test: /\.css$/,
                 use: extractSass.extract({
                     use: [

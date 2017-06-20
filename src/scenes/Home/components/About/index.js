@@ -35,12 +35,11 @@ export default class Contact extends Component {
                                 <br />
                         </Col>
 
-                        <Col s={12} className="valign-wrapper-m" style={{marginBottom:'50px'}}>
-                            <br />
-                            <br />
+                        <Col s={12} l={7}>
                             <Skills skills={info.skills}/>
-                            <br />
-                            <br />
+                        </Col>
+
+                        <Col s={12} l={5} className="center-align" style={{marginBottom:'50px'}}>
                             <img {...info.getAvatar()}/>
                         </Col>
 

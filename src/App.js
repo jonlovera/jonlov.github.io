@@ -59,6 +59,9 @@ export default class App extends Component {
                 }
             }
         ];
+
+        $(".button-collapse").sideNav({closeOnClick: true});
+
         Materialize.scrollFire(options);
     }
 

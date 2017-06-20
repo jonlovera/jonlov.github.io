@@ -9,14 +9,14 @@ export default class Sections extends Component {
             }}/>,
                 image = <Col s={12} m={6}>
                     <img src={section.image.src} srcSet={section.image.srcSet} width="100%"/>
-                </Col>;
-
+                </Col>,
+                screenWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
             return (
                 <Col key={index} style={section.style}>
                     <Row>
                         {/* if index is even print image in the left
                             else print image at the right */}
-                        {(index % 2 == 0)
+                        {(index % 2 == 0 || screenWidth < 601)
                             ? <span className="valign-wrapper-m">{image}{description}</span>
                             : <span className="valign-wrapper-m">{description}{image}</span>}
                     </Row>
