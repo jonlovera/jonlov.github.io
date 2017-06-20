@@ -9,8 +9,8 @@ export default class Footer extends Component {
                 <div className="footer-copyright">
                     <div className="container">
                         <div>
-                            Made with
-                            <i className="fa fa-heart"></i>using ReactJS and compiled with Webpack.
+                            Made with{" "}
+                            <i className="fa fa-heart"></i>{" "}using ReactJS and compiled with Webpack.{" "}
                             <a className="white-text underline" href="https://github.com/jonlov/jonlov.github.io" target="_BLANK">
                                 (View source code)
                             </a>

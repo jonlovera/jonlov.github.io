@@ -9,7 +9,10 @@ import Footer from 'components/Footer';
 
 import Home from 'scenes/Home';
 import PageNotFound from 'scenes/Error/404';
-import 'materialize-css/dist/js/materialize.js'
+
+import 'materialize-css';
+import 'materialize-css/sass/materialize.scss';
+
 import 'styles/style.scss'
 
 export default class App extends Component {

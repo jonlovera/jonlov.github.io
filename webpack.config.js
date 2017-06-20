@@ -8,12 +8,38 @@ const webpack = require('webpack'),
     }),
     WebpackCleanupPlugin = require('webpack-cleanup-plugin'),
     HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin'),
+    CopyWebpackPlugin = require('copy-webpack-plugin'),
     plugins = [
         new webpack.ProvidePlugin({$: "jquery", jQuery: "jquery"}),
         new HtmlWebpackPlugin({filename: '../index.html', template: 'assets/index.ejs', alwaysWriteToDisk: true}),
         new HtmlWebpackPlugin({filename: '../404.html', template: 'assets/404.ejs', alwaysWriteToDisk: true}),
         new HtmlWebpackHarddiskPlugin(),
         new WebpackCleanupPlugin(),
+        new CopyWebpackPlugin([
+            // Copy directory contents to {output}/
+            {
+                from: 'assets'
+            },
+
+            // Copy glob results, relative to context
+            //    {
+            //        context: 'assets',
+            //        from: '**/*'
+            //    }
+        ], {
+            ignore: [
+                // Doesn't copy any files with a txt extension
+                '*.scss',
+                '*.css',
+                '*.png',
+                '*.ejs'
+            ],
+
+            // By default, we only copy modified files during
+            // a watch or webpack-dev-server build. Setting this
+            // to `true` copies all files.
+            copyUnmodified: true
+        }),
         extractSass
     ];
 
@@ -39,6 +65,17 @@ module.exports = {
                             loader: "css-loader"
                         }, {
                             loader: "sass-loader"
+                        }
+                    ],
+                    // use style-loader in development
+                    fallback: "style-loader"
+                })
+            },{
+                test: /\.css$/,
+                use: extractSass.extract({
+                    use: [
+                        {
+                            loader: "css-loader"
                         }
                     ],
                     // use style-loader in development
