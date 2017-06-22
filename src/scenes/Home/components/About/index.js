@@ -26,9 +26,9 @@ export default class Contact extends Component {
                         ]
                     ])}>
                         <Col s={12} className="center-align">
-                            <span dangerouslySetInnerHTML={{
+                            <h5 dangerouslySetInnerHTML={{
                                 __html: info.description
-                            }}></span>
+                            }}></h5>
                                 <br />
                                 <br />
                                 <br />

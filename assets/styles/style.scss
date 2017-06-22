@@ -199,7 +199,12 @@ section > div {
 
 #content > div > div {
     padding-top: 40px;
-    padding-bottom: 60px;
+}
+
+#contact {
+    padding-top: 100px !important;
+padding-bottom: 60px;
+
 }
 
 nav.pinned+#content {
