@@ -67,11 +67,33 @@ let info = {
         },
         phone: "+61411063652",
         phoneBeautified: "+(61) 411 063 652",
-        email: "jonlovera18@gmail.com",
+        email: "jonathan@rootplace.com",
         github: "jonlov",
         gitlab: "0n"
     },
     projects: [
+            {
+                title: "More projects coming",
+                description: "",
+                url: "",
+                avatar: "",
+                images: [],
+                skills: []
+            },
+        {
+            title: "Divorce Negotiations",
+            description: "",
+            url: "http://divorcenegotiations.com.au",
+            avatar: "divorceNegotiations.png",
+            images: [],
+            skills: [
+                "Css3",
+                "PHP",
+                "ReactJS",
+                "JQuery",
+                "Html5"
+            ]
+        },
         {
             title: "Klobic",
             description: "",
