@@ -12,23 +12,21 @@ let info = {
         name: "Jonathan Lovera",
         title: "Full-stack Developer",
         description: "I am a developer that loves learning and new challenges. <br /><span class='hide-on-small-only'>I am always seeking to improve myself and my craft.</span>",
-        sections: [
-            {
-                description: "Writing clean code is a passion of mine and so a primary goal is to always write well designed code that is easy to change and also easy to test. I try to write my code in such a way that any other developer could easily understand. I always like to write reusable code. For example, this website is rendered from one JSON file. <div class='center-align'><a href='https://github.com/jonlov/jonlov.github.io/blob/master/src/json/index.js' target='_BLANK'>(Checkout JSON file)</a></div><br /><br /> It's not just important that the code works, the perfomance and the way it's aproaching the problem also make the difference.<div class='center-align'><a href='https://github.com/jonlov/jonlov.github.io' target='_BLANK'>(Have a look of this website code)</a></div>",
-                image: "code.png"
-            }, {
-                description: "Design is not my core, but is my desire to share my ideas with the designers. So I deliver the software with a basic design. <br/><br/>When it comes to responsive web design, it's not an extra feature for me. I always create the websites in such a way that it can be viewed on any device.",
-                image: "design.png"
-            }, {
-                style: {
-                    backgroundColor: "#130500",
-                    color: "#fff"
-                },
-                description: "I am a very creative person. So I always love to come up with new things and new ideas. I want to make things that make a difference.",
-                descriptionClass: "center-align",
-                image: "ideas.png"
-            }
-        ],
+        sections: [{
+            description: "Writing clean code is a passion of mine and so a primary goal is to always write well designed code that is easy to change and also easy to test. I try to write my code in such a way that any other developer could easily understand. I always like to write reusable code. For example, this website is rendered from one JSON file. <div class='center-align'><a href='https://github.com/jonlov/jonlov.github.io/blob/master/src/json/index.js' target='_BLANK'>(Checkout JSON file)</a></div><br /><br /> It's not just important that the code works, the perfomance and the way it's aproaching the problem also make the difference.<div class='center-align'><a href='https://github.com/jonlov/jonlov.github.io' target='_BLANK'>(Have a look of this website code)</a></div>",
+            image: "code.png"
+        }, {
+            description: "Design is not my core, but is my desire to share my ideas with the designers. So I deliver the software with a basic design. <br/><br/>When it comes to responsive web design, it's not an extra feature for me. I always create the websites in such a way that it can be viewed on any device.",
+            image: "design.png"
+        }, {
+            style: {
+                backgroundColor: "#130500",
+                color: "#fff"
+            },
+            description: "I am a very creative person. So I always love to come up with new things and new ideas. I want to make things that make a difference.",
+            descriptionClass: "center-align",
+            image: "ideas.png"
+        }],
         pitchs: ["I am ready for new challenges, do you have one for me? <br /> Let's get to work!"],
         skills: {
             Backend: [
@@ -71,15 +69,20 @@ let info = {
         github: "jonlov",
         gitlab: "0n"
     },
-    projects: [
-            {
-                title: "More projects coming",
-                description: "",
-                url: "",
-                avatar: "",
-                images: [],
-                skills: []
-            },
+    projects: [{
+            title: "FlowerUP",
+            description: "",
+            url: "https://flowerup.es",
+            avatar: "flowerUP.png",
+            images: [],
+            skills: [
+                "Ruby on Rails",
+                "PostgreSQL",
+                "JQuery",
+                "Css3",
+                "Html5"
+            ]
+        },
         {
             title: "Divorce Negotiations",
             description: "",
@@ -87,10 +90,10 @@ let info = {
             avatar: "divorceNegotiations.png",
             images: [],
             skills: [
-                "Css3",
                 "PHP",
                 "ReactJS",
                 "JQuery",
+                "Css3",
                 "Html5"
             ]
         },
@@ -101,11 +104,11 @@ let info = {
             avatar: "klobic.png",
             images: [],
             skills: [
-                "Css3",
                 "PHP",
-                "Mysql",
+                "MySQL",
                 "ReactJS",
                 "JQuery",
+                "Css3",
                 "Html5"
             ]
         }, {
@@ -114,35 +117,41 @@ let info = {
             url: "https://rudimentary.com.au",
             avatar: "rudimentary.png",
             images: [],
-            skills: ["JQuery", "Html5", "Css3"]
+            skills: ["JQuery", "Css3", "Html5"]
         }, {
             title: "Angelina",
             description: "",
             url: "http://angelinamusica.com",
             avatar: "angelina.png",
             images: [],
-            skills: ["PHP", "JQuery", "Html5", "Css3"]
+            skills: ["PHP", "JQuery", "Css3", "Html5"]
         }, {
             title: "Jhon Music",
             description: "",
             url: "https://jhonmusic.com",
             avatar: "jhon-music.png",
             images: [],
-            skills: ["PHP", "JQuery", "Html5", "Css3"]
+            skills: ["PHP", "JQuery", "Css3", "Html5"]
         }, {
             title: "Yesy Milano",
             description: "",
             url: "http://yesymilano.com",
             avatar: "yesy-milano.png",
             images: [],
-            skills: ["PHP", "JQuery", "Html5", "Css3"]
+            skills: ["PHP", "JQuery", "Css3", "Html5"]
         }, {
             title: "Anjully Lozano",
             description: "",
             url: "http://anjullylozano.com",
             avatar: "anjully-lozano.png",
             images: [],
-            skills: ["WordPress", "PHP", "Html5", "Css3"]
+            skills: [
+                "WordPress",
+                "PHP",
+                "MySQL",
+                "Css3",
+                "Html5"
+            ]
         }
     ]
 }
