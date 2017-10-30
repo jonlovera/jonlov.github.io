@@ -4,9 +4,19 @@ import {Row, Col, Button} from 'react-materialize';
 export default class Sections extends Component {
     render() {
         let sections = this.props.sections.map((section, index) => {
-            let description = <Col s={12} m={6} className={section.descriptionClass} dangerouslySetInnerHTML={{
-                __html: section.description
-            }}/>,
+            let description = <Col s={12} m={6} className={section.descriptionClass}>
+                    {(section.title)?
+                    <div>
+                        <h5>
+                            <b>{section.title}</b>
+                        </h5>
+                        <br/>
+                    </div>
+                    :null}
+                    <div dangerouslySetInnerHTML={{
+                        __html: section.description
+                    }} />
+                </Col>,
                 image = <Col s={12} m={6}>
                     <img src={section.image.src} srcSet={section.image.srcSet} width="100%"/>
                 </Col>,

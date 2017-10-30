@@ -11,19 +11,21 @@ let info = {
         },
         name: "Jonathan Lovera",
         title: "Full-stack Developer",
-        description: "I am a developer that loves learning and new challenges. <br /><span class='hide-on-small-only'>I am always seeking to improve myself and my craft.</span>",
+        description: "I am a developer who loves new challenges.",// <br /><span class='hide-on-small-only'>I am always seeking to improve myself and my craft.</span>",
         sections: [{
-            description: "Writing clean code is a passion of mine and so a primary goal is to always write well designed code that is easy to change and also easy to test. I try to write my code in such a way that any other developer could easily understand. I always like to write reusable code. For example, this website is rendered from one JSON file. <div class='center-align'><a href='https://github.com/jonlov/jonlov.github.io/blob/master/src/json/index.js' target='_BLANK'>(Checkout JSON file)</a></div><br /><br /> It's not just important that the code works, the perfomance and the way it's aproaching the problem also make the difference.<div class='center-align'><a href='https://github.com/jonlov/jonlov.github.io' target='_BLANK'>(Have a look of this website code)</a></div>",
+            title: "Coding",
+            description: "Quality software should always have clean code. I’m passionate about writing code that is easy to read, easy to test, and easy to change. This website, for example, is rendered from one <a href='https://github.com/jonlov/jonlov.github.io/blob/master/src/json/index.js' target='_BLANK'>JSON file</a>.",
             image: "code.png"
         }, {
-            description: "Design is not my core, but is my desire to share my ideas with the designers. So I deliver the software with a basic design. <br/><br/>When it comes to responsive web design, it's not an extra feature for me. I always create the websites in such a way that it can be viewed on any device.",
+            title: "Design",
+            description: "As a developer, I work closely with designers to bring my code to life. Responsive web design and tasteful formatting allows each website to be rendered beautifully on any device.",
             image: "design.png"
         }, {
             style: {
                 backgroundColor: "#130500",
                 color: "#fff"
             },
-            description: "I am a very creative person. So I always love to come up with new things and new ideas. I want to make things that make a difference.",
+            description: "I am a very creative person.  I love to solve problems, come up with new ideas, and create software that makes a difference.",
             descriptionClass: "center-align",
             image: "ideas.png"
         }],

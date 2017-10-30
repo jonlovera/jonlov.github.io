@@ -50,9 +50,9 @@ export default class Contact extends Component {
                         <hr/>
                         <br/>
                         <br/>
-                            <span dangerouslySetInnerHTML={{
+                            <h5 dangerouslySetInnerHTML={{
                                 __html: info.pitchs[0]
-                            }}></span>
+                            }}></h5>
                             <br/>
                             <br/>
                             <Scrollchor to="#contact">
