@@ -35,7 +35,7 @@ export default class Contact extends Component {
                                 <br />
                         </Col>
 
-                        <Col s={12} l={7}>
+                        <Col s={12} l={7} style={{marginTop:'50px'}}>
                             <Skills skills={info.skills}/>
                         </Col>
 
