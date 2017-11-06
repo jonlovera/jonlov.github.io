@@ -14,7 +14,7 @@ let info = {
         description: "I am a developer who loves new challenges.",// <br /><span class='hide-on-small-only'>I am always seeking to improve myself and my craft.</span>",
         sections: [{
             title: "Coding",
-            description: "Quality software should always have clean code. I’m passionate about writing code that is easy to read, easy to test, and easy to change. This website, for example, is rendered from one <a href='https://github.com/jonlov/jonlov.github.io/blob/master/src/json/index.js' target='_BLANK'>JSON file</a>.",
+            description: "Quality software should always have clean code. I am passionate about writing code that is easy to read, easy to test, and easy to change. This website, for example, is rendered from one <a href='https://github.com/jonlov/jonlov.github.io/blob/master/src/json/index.js' target='_BLANK'>JSON file</a>.",
             image: "code.png"
         }, {
             title: "Design",
@@ -94,7 +94,6 @@ let info = {
             skills: [
                 "PHP",
                 "ReactJS",
-                "JQuery",
                 "Css3",
                 "Html5"
             ]
@@ -123,24 +122,24 @@ let info = {
         }, {
             title: "Angelina",
             description: "",
-            url: "http://angelinamusica.com",
+            url: "https://jonlov.github.io/Angelina",
             avatar: "angelina.png",
             images: [],
             skills: ["PHP", "JQuery", "Css3", "Html5"]
         }, {
             title: "Jhon Music",
             description: "",
-            url: "https://jhonmusic.com",
+            url: "https://jonlov.github.io/Jhon-Music",
             avatar: "jhon-music.png",
             images: [],
             skills: ["PHP", "JQuery", "Css3", "Html5"]
         }, {
             title: "Yesy Milano",
             description: "",
-            url: "http://yesymilano.com",
+            url: "https://jonlov.github.io/Yesy-Milano",
             avatar: "yesy-milano.png",
             images: [],
-            skills: ["PHP", "JQuery", "Css3", "Html5"]
+            skills: ["PHP", "AngularJS", "Css3", "Html5"]
         }, {
             title: "Anjully Lozano",
             description: "",
