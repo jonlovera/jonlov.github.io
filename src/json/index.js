@@ -67,7 +67,7 @@ let info = {
         },
         phone: "+61411063652",
         phoneBeautified: "+(61) 411 063 652",
-        email: "jonathan@rootplace.com",
+        email: "j@jonlov.com",
         github: "jonlov",
         gitlab: "0n"
     },
