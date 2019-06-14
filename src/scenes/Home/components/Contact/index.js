@@ -27,7 +27,7 @@ export default class Contact extends Component {
                         </a>
                         <br/>
                         <br/>
-                        <a href="https://www.linkedin.com/in/jonlovera/" target="_BLANK" className="black-text">
+                        <a href="https://www.linkedin.com/in/jonlov/" target="_BLANK" className="black-text">
                             <i className="fa fa-linkedin-square" aria-hidden="true" style={{
                                 fontSize: "28px"
                             }}></i>

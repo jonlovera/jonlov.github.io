@@ -1,4 +1,4 @@
-const avatar = require('responsive-loader?name=./img/[hash].&sizes[]=300!img/profile.png');
+const avatar = require("responsive-loader?name=./img/[hash].&sizes[]=300!img/profile.png");
 
 const info = {
   about: {
@@ -9,129 +9,131 @@ const info = {
       delete a.images;
       return a;
     },
-    name: 'Jonathan Lovera',
-    title: 'Full-stack Developer',
-    description: 'I am a developer who loves new challenges.', // <br /><span class='hide-on-small-only'>I am always seeking to improve myself and my craft.</span>",
+    name: "Jonathan Lovera",
+    title: "Full-stack Developer",
+    description: "I am a developer who loves new challenges.", // <br /><span class='hide-on-small-only'>I am always seeking to improve myself and my craft.</span>",
     sections: [
       {
-        title: 'Coding',
+        title: "Coding",
         description:
           "Quality software should always have clean code. I am passionate about writing code that is easy to read, easy to test, and easy to change. This website, for example, is rendered from one <a href='https://github.com/jonlov/jonlov.github.io/blob/master/src/json/index.js' target='_BLANK'>JSON file</a>.",
-        image: 'code.png',
+        image: "code.png"
       },
       {
-        title: 'Design',
+        title: "Design",
         description:
-          'As a developer, I work closely with designers to bring my code to life. Responsive web design and tasteful formatting allows each website to be rendered beautifully on any device.',
-        image: 'design.png',
+          "As a developer, I work closely with designers to bring my code to life. Responsive web design and tasteful formatting allows each website to be rendered beautifully on any device.",
+        image: "design.png"
       },
       {
         style: {
-          backgroundColor: '#130500',
-          color: '#fff',
+          backgroundColor: "#130500",
+          color: "#fff"
         },
         description:
-          'I am a very creative person.  I love to solve problems, come up with new ideas, and create software that makes a difference.',
-        descriptionClass: 'center-align',
-        image: 'ideas.png',
-      },
+          "I am a very creative person.  I love to solve problems, come up with new ideas, and create software that makes a difference.",
+        descriptionClass: "center-align",
+        image: "ideas.png"
+      }
     ],
-    pitchs: ["I am ready for new challenges, do you have one for me? <br /> Let's get to work!"],
+    pitchs: [
+      "I am ready for new challenges, do you have one for me? <br /> Let's get to work!"
+    ],
     skills: {
-      Backend: ['Java', 'NodeJS', 'Ruby on Rails', 'PHP'],
+      Backend: ["Java", "NodeJS", "Ruby on Rails", "PHP"],
       Frontend: [
-        'HTML5',
-        'CSS3',
-        'JQuery',
-        'ReactJS',
+        "HTML5",
+        "CSS3",
+        "JQuery",
+        "ReactJS",
         {
-          icon: 'angular',
-          name: 'AngularJS',
+          icon: "angular",
+          name: "AngularJS"
         },
-        'Bootstrap',
-        'Materialize',
+        "Bootstrap",
+        "Materialize"
       ],
-      Databases: ['Mysql', 'MongoDB'],
-      CMS: ['WordPress'],
-      DevTools: ['Sass', 'Less', 'Bower', 'Webpack', 'Gulp', 'Grunt', 'Git'],
-      DevOps: ['AWS', 'Heroku', 'Openshift', 'Digital Ocean'],
+      Databases: ["Mysql", "MongoDB"],
+      CMS: ["WordPress"],
+      DevTools: ["Sass", "Less", "Bower", "Webpack", "Gulp", "Grunt", "Git"],
+      DevOps: ["AWS", "Heroku", "Openshift", "Digital Ocean"],
       Design: [
-        'UI',
-        'UX', //,"IA"
-      ],
+        "UI",
+        "UX" //,"IA"
+      ]
     },
-    phone: '+61411063652',
-    phoneBeautified: '+(61) 411 063 652',
-    email: 'hello@jonlov.com',
-    github: 'jonlov',
-    gitlab: '0n',
+    phone: "+61411063652",
+    phoneBeautified: "+(61) 411 063 652",
+    email: "hello@jonlov.com",
+    github: "jonlov",
+    gitlab: "jonlov"
   },
   projects: [
     {
-      title: 'FlowerUP',
-      description: '',
-      url: 'https://flowerup.es',
-      avatar: 'flowerUP.png',
+      title: "FlowerUP",
+      description: "",
+      url: "https://flowerup.es",
+      avatar: "flowerUP.png",
       images: [],
-      skills: ['Ruby on Rails', 'PostgreSQL', 'JQuery', 'Css3', 'Html5'],
+      skills: ["Ruby on Rails", "PostgreSQL", "JQuery", "Css3", "Html5"]
     },
     {
-      title: 'Divorce Negotiations',
-      description: '',
-      url: 'http://divorcenegotiations.com.au',
-      avatar: 'divorceNegotiations.png',
+      title: "Divorce Negotiations",
+      description: "",
+      url: "http://divorcenegotiations.com.au",
+      avatar: "divorceNegotiations.png",
       images: [],
-      skills: ['PHP', 'ReactJS', 'Css3', 'Html5'],
+      skills: ["PHP", "ReactJS", "Css3", "Html5"]
     },
     {
-      title: 'Klobic',
-      description: '',
-      url: 'https://klobic.com',
-      avatar: 'klobic.png',
+      title: "Klobic",
+      description: "",
+      url: "https://klobic.com",
+      avatar: "klobic.png",
       images: [],
-      skills: ['PHP', 'MySQL', 'ReactJS', 'JQuery', 'Css3', 'Html5'],
+      skills: ["PHP", "MySQL", "ReactJS", "JQuery", "Css3", "Html5"]
     },
     {
-      title: 'Rudimentary',
-      description: '',
-      url: 'https://rudimentary.com.au',
-      avatar: 'rudimentary.png',
+      title: "Rudimentary",
+      description: "",
+      url: "https://rudimentary.com.au",
+      avatar: "rudimentary.png",
       images: [],
-      skills: ['JQuery', 'Css3', 'Html5'],
+      skills: ["JQuery", "Css3", "Html5"]
     },
     {
-      title: 'Angelina',
-      description: '',
-      url: 'https://jonlov.github.io/Angelina',
-      avatar: 'angelina.png',
+      title: "Angelina",
+      description: "",
+      url: "https://jonlov.github.io/Angelina",
+      avatar: "angelina.png",
       images: [],
-      skills: ['PHP', 'JQuery', 'Css3', 'Html5'],
+      skills: ["PHP", "JQuery", "Css3", "Html5"]
     },
     {
-      title: 'Jhon Music',
-      description: '',
-      url: 'https://jonlov.github.io/Jhon-Music',
-      avatar: 'jhon-music.png',
+      title: "Jhon Music",
+      description: "",
+      url: "https://jonlov.github.io/Jhon-Music",
+      avatar: "jhon-music.png",
       images: [],
-      skills: ['PHP', 'JQuery', 'Css3', 'Html5'],
+      skills: ["PHP", "JQuery", "Css3", "Html5"]
     },
     {
-      title: 'Yesy Milano',
-      description: '',
-      url: 'https://jonlov.github.io/Yesy-Milano',
-      avatar: 'yesy-milano.png',
+      title: "Yesy Milano",
+      description: "",
+      url: "https://jonlov.github.io/Yesy-Milano",
+      avatar: "yesy-milano.png",
       images: [],
-      skills: ['PHP', 'AngularJS', 'Css3', 'Html5'],
+      skills: ["PHP", "AngularJS", "Css3", "Html5"]
     },
     {
-      title: 'Anjully Lozano',
-      description: '',
-      url: 'http://anjullylozano.com',
-      avatar: 'anjully-lozano.png',
+      title: "Anjully Lozano",
+      description: "",
+      url: "http://anjullylozano.com",
+      avatar: "anjully-lozano.png",
       images: [],
-      skills: ['WordPress', 'PHP', 'MySQL', 'Css3', 'Html5'],
-    },
-  ],
+      skills: ["WordPress", "PHP", "MySQL", "Css3", "Html5"]
+    }
+  ]
 };
 
 // Let webpack compile all project images
