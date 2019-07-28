@@ -75,7 +75,7 @@ export default class Nav extends Component {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/jonlov/"
+            href="https://www.linkedin.com/in/jonlovera/"
             target="_BLANK"
             className="black-text"
           >

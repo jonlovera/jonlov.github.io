@@ -9,12 +9,12 @@ This is my simple portfolio created with ReactJS compiled with webpack.
 
 It contains some frameworks as Material Design, Jquery, TypedJS and others.
 
-Live demo: http://jonlov.github.io
+Live demo: http://jonlovera.github.io
 
 # Installation
 To run this project local you must have NodeJS installed.
 1. Clone the repository
-`git clone https://github.com/jonlov/jonlov.github.io.git`
+`git clone https://github.com/jonlovera/jonlovera.github.io.git`
 
 2. Install npm dependecies
 `npm install`
@@ -44,4 +44,4 @@ Done!
 
 # License
 
-This project is licensed under [MIT](https://github.com/jonlov/jonlov.github.io/blob/master/LICENSE).
+This project is licensed under [MIT](https://github.com/jonlovera/jonlovera.github.io/blob/master/LICENSE).

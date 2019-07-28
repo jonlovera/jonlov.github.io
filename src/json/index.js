@@ -16,7 +16,7 @@ const info = {
       {
         title: "Coding",
         description:
-          "Quality software should always have clean code. I am passionate about writing code that is easy to read, easy to test, and easy to change. This website, for example, is rendered from one <a href='https://github.com/jonlov/jonlov.github.io/blob/master/src/json/index.js' target='_BLANK'>JSON file</a>.",
+          "Quality software should always have clean code. I am passionate about writing code that is easy to read, easy to test, and easy to change. This website, for example, is rendered from one <a href='https://github.com/jonlovera/jonlovera.github.io/blob/master/src/json/index.js' target='_BLANK'>JSON file</a>.",
         image: "code.png"
       },
       {
@@ -64,9 +64,9 @@ const info = {
     },
     phone: "+61411063652",
     phoneBeautified: "+(61) 411 063 652",
-    email: "hello@jonlov.com",
-    github: "jonlov",
-    gitlab: "jonlov"
+    email: "hello@jonlovera.com",
+    github: "jonlovera",
+    gitlab: "jonlovera"
   },
   projects: [
     {
@@ -104,7 +104,7 @@ const info = {
     {
       title: "Angelina",
       description: "",
-      url: "https://jonlov.github.io/Angelina",
+      url: "https://jonlovera.github.io/Angelina",
       avatar: "angelina.png",
       images: [],
       skills: ["PHP", "JQuery", "Css3", "Html5"]
@@ -112,7 +112,7 @@ const info = {
     {
       title: "Jhon Music",
       description: "",
-      url: "https://jonlov.github.io/Jhon-Music",
+      url: "https://jonlovera.github.io/Jhon-Music",
       avatar: "jhon-music.png",
       images: [],
       skills: ["PHP", "JQuery", "Css3", "Html5"]
@@ -120,7 +120,7 @@ const info = {
     {
       title: "Yesy Milano",
       description: "",
-      url: "https://jonlov.github.io/Yesy-Milano",
+      url: "https://jonlovera.github.io/Yesy-Milano",
       avatar: "yesy-milano.png",
       images: [],
       skills: ["PHP", "AngularJS", "Css3", "Html5"]
