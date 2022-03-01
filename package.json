@@ -50,7 +50,7 @@
     "typed.js": "^1.1.7",
     "underscore": "^1.8.3",
     "url-loader": "^0.5.9",
-    "url-parse": "^1.4.3",
+    "url-parse": "^1.5.9",
     "uuid": "^3.3.2",
     "webpack": "^2.6.1",
     "webpack-cleanup-plugin": "^0.5.1"
